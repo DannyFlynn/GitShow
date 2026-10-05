@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git Skills Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark">G</span>
+          Git Practice Portfolio
+        </div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#skills">Skills</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#showcase">Showcase</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Version Control • Collaboration • Dev Workflow</p>
+            <h1>My Git skills are ready to ship.</h1>
+            <p class="subtitle">
+              This mini project is a clean example of how I use Git to manage files,
+              track progress, branch features, and collaborate with confidence.
+            </p>
+
+            <div class="cta-row">
+              <a class="primary-btn" href="#skills">Explore my skills</a>
+              <a class="secondary-btn" href="#workflow">See the workflow</a>
+            </div>
+
+            <ul class="stats">
+              <li>
+                <strong>12+</strong>
+                <span>Git commands</span>
+              </li>
+              <li>
+                <strong>3</strong>
+                <span>core workflows</span>
+              </li>
+              <li>
+                <strong>100%</strong>
+                <span>ready to demo</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-panel">
+            <div class="terminal-window">
+              <div class="window-bar">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <pre id="terminal-output">git status
+git checkout -b feature/ui-update
+git add .
+git commit -m "Add Git showcase page"
+git push origin feature/ui-update</pre>
+            </div>
+          </div>
+        </section>
+
+     
+        <section id="showcase" class="showcase section-block">
+          <div class="showcase-box">
+            <div>
+              <p class="eyebrow">Project highlight</p>
+              <h2>Built to demonstrate Git confidence</h2>
+            </div>
+
+            <p>
+              This page combines clean HTML, stylish CSS, and a small interactive JavaScript file to show that I understand how to organize a project, connect files, and present work professionally.
+            </p>
+
+            <div class="badge-row" aria-label="Git commands shown">
+              <span>git init</span>
+              <span>git add</span>
+              <span>git commit</span>
+              <span>git push</span>
+              <span>git merge</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        Built for Git practice • <span id="current-date"></span>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
